@@ -1,6 +1,6 @@
 package com.briscola;
 
-public interface Card<T> extends Comparable<T> {
+public interface Card extends Comparable<Card> {
     public int getSuit();
 
     public int getRank();

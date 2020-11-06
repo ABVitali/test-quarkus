@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class BriscolaCard implements Card<BriscolaCard> {
+public class BriscolaCard implements Comparable<Card> {
 
     private int suit;
     private int rank;
